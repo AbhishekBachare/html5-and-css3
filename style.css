@@ -1,0 +1,214 @@
+*{
+    margin :0;
+    padding: 0;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#container{
+    background: ghostwhite;
+    margin: 0 auto;
+    width: 100%;
+
+    font-family:Arial;
+
+}
+
+header{
+    background-image: url("images/Black.jpg");
+    width: 100%;
+    color: aliceblue;
+}
+
+.left-header{
+    padding: 50px 20px 0px 20px;
+    float: left;
+    cursor: default;
+}
+
+.left-header h1 span{
+    color: orangered;
+}
+
+header nav{
+    float: right;
+
+}
+
+header nav ul{
+
+}
+
+header nav ul a li{
+    float: left;
+    list-style: none;
+    padding: 60px 37.5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 2px;
+    color: white;
+    transition: background 1s;
+
+}
+
+header nav ul a li:hover{
+    background: orangered;
+    box-sizing: border-box;
+    color: black;
+}
+
+main .main-img{
+    width: 100%;
+    height: 100%;
+}
+
+.first-section{
+padding:0 5% 2%;
+}
+
+.first-section h2{
+    text-align: center;
+    font-size: 60px;
+    padding: 40px;
+    color: black;
+    text-shadow: 2px 2px 2px orangered;
+}
+
+.first-section h2:hover{
+    text-shadow: 2px 2px 2px orange;
+}
+article{
+    width: 23%;
+    margin: 5px;
+    float: left;
+    color: darkslategray;
+}
+article img{
+    width: 100%;
+   }
+article img:hover{
+    width: 100%;
+    animation: img-anim 2s;
+    animation-iteration-count: infinite;
+
+}
+.img-block1{
+
+    overflow: hidden;
+}
+@keyframes img-anim  {
+    from{width: 100%}
+    to{width: 150%}
+}
+.magin-left{
+    margin-left: 2.5%;
+}
+
+.magin-right{
+    margin-right: 0;
+}
+article .article-title{
+text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+
+article .article-desc{
+text-align: center;
+}
+
+.second-section{
+    background: url("images/article4.jpg") no-repeat;
+    background-size: 100%;
+    background-color:orangered;
+    width: 100%;
+    height: 500px;
+    padding: 30px 30px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.second-section h2{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px orangered;
+
+
+}
+.second-section h2:hover
+{
+    text-shadow: 2px 2px 2px orange;
+}
+
+.second-section .left-side{
+width: 40%;
+    float: left;
+
+}
+.second-section .left-side img{
+    width: 100%;
+    height: 80%;
+    border: 5px black solid;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 40px;
+}
+.second-section .right-side{
+width: 40%;
+    float: right;
+    color: orangered;
+    background-color: white;
+    padding: 20px 20px 40px 20px;
+    border: 5px solid black;
+    line-height: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 40px;
+    height: 60%;
+}
+
+footer{
+    width: 100%;
+    background: gray;
+    height: 100px;
+    background-image: url("images/Black.jpg");
+}
+
+.left-footer {
+ padding: 20px;
+    color: orangered;
+    float: left;
+    padding: 20px;
+}
+
+.right-footer{
+float: right;
+    padding: 20px;
+}
+
+.right-footer ul li{
+    color: white;
+    float: left;
+    list-style: none;
+    font-weight: bold;
+    transition: color 1s;
+}
+
+.right-footer ul b{
+    color: white;
+    padding: 0 20px;
+}
+
+.right-footer ul li:hover{
+    color: orangered;
+}
